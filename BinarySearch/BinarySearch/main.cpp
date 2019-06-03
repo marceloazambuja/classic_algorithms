@@ -3,7 +3,7 @@
 //  BinarySearch
 // * this algorithm only works if the array is sorted (you should sort it first if not sorted)
 //
-//  Created by Marcelo Cunha de Azambuja on 6/1/19, using https://www.geeksforgeeks.org/binary-search/ as base idea. 
+//  Created by Marcelo Cunha de Azambuja on 6/1/19, using https://www.geeksforgeeks.org/binary-search/ as base idea.
 //  Copyright © 2019 Marcelo Cunha de Azambuja. All rights reserved.
 //
 
@@ -19,7 +19,7 @@ int binarySearch (int arr[], int leftPosition, int rightPosition, int target){
         
         //find the middle position of current array:
         middle=leftPosition+ ((rightPosition-leftPosition)/2);
-    
+     
         if (arr[middle]==target)
             return (middle);
         else
