@@ -22,7 +22,8 @@ int main(){
     map<char, int> m;
     if (m.empty())
         cout << "\nThe newly created map is currently empty.";
-        cout << "\nPress Enter to continue ... ";  cin.ignore(numeric_limits<streamsize>::max(),'\n');
+    
+    cout << "\nPress Enter to continue ... ";  cin.ignore(numeric_limits<streamsize>::max(),'\n');
                                                     //other way to safely discard \n from the standard stream stdin.
     m['A'] = 65;
     m['B'] = 66;
