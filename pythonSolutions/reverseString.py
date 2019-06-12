@@ -61,6 +61,5 @@ for char in reversed( variable ):
 print ("\n\n ")
 
 ######## final test
-myString = ""
 myString = input ('Enter your string: ')
 print (myString[::-1])
