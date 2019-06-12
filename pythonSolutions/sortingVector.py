@@ -2,7 +2,7 @@ myArray = [30, 12, 40, 8, 50, 5]
 
 myArray.sort()
 
-print "Sorted array: "
+print ("Sorted array: ")
 
 print myArray
 
